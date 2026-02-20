@@ -1,0 +1,10 @@
+{
+  "threshold_5pct_false_alarm": 0.4278472661972046,
+  "threshold_1pct_false_alarm": 0.5528877377510071,
+  "recommended_threshold": 0.4278472661972046,
+  "normal_score_mean": 0.252938449382782,
+  "normal_score_std": 0.09631168097257614,
+  "latent_dim": 16,
+  "roc_auc": 0.99184,
+  "note": "Use anomaly_score = mean((x - decoder(encoder(x)))^2, axis=1)"
+}
